@@ -1,0 +1,48 @@
+{
+
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+
+    "contentVersion": "1.0.0.0",
+
+    "parameters": {
+
+        "mspOfferName": {
+
+            "value": "Azure Verwaltung durch Wittl-IT"
+
+        },
+
+        "mspOfferDescription": {
+
+            "value": "Dieses Angebot gewährt der Wittl-IT Zugriff auf Ihre Azure-Ressourcen. Somit ist Remote-Administration möglich."
+
+        },
+
+        "managedByTenantId": {
+
+            "value": "TenantID des Verwaltenden Teanants"
+
+        },
+
+        "authorizations": {
+
+            "value": [
+
+                {
+
+                    "principalId": "------",
+
+                    "principalIdDisplayName": "Wittl-IT",
+
+                    "roleDefinitionId": "----"
+
+                },
+                
+
+            ]
+
+        }
+
+    }
+
+}
