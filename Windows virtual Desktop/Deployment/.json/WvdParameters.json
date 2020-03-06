@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "rdshImageSource": {
+            "value": "Gallery"
+        },
+        "vmImageVhdUri": {
+            "value": ""
+        },
+        "rdshGalleryImageSKU": {
+            "value": "Windows-10-Enterprise-multi-session-with-Office-365-ProPlus-1909"
+        },
+        "rdshCustomImageSourceName": {
+            "value": ""
+        },
+        "rdshCustomImageSourceResourceGroup": {
+            "value": ""
+        },
+        "rdshNamePrefix": {
+            "value": "WVD"
+        },
+        "rdshNumberOfInstances": {
+            "value": 1
+        },
+        "rdshVMDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "rdshVmSize": {
+            "value": "Standard_D4s_v3"
+        },
+        "enableAcceleratedNetworking": {
+            "value": false
+        },
+        "rdshUseManagedDisks": {
+            "value": true
+        },
+        "storageAccountResourceGroupName": {
+            "value": "''"
+        },
+        "domainToJoin": {
+            "value": "Domain.ltd"
+        },
+        "existingDomainUPN": {
+            "value": "wvdjoiner@domain.tld"
+        },
+        "existingDomainPassword": {
+            "value": "wvdjoinerPW"
+        },
+        "ouPath": {
+            "value": ""
+        },
+        "existingVnetName": {
+            "value": "vnet"
+        },
+        "newOrExistingVnet": {
+            "value": "existing"
+        },
+        "existingSubnetName": {
+            "value": "sub"
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": "rg"
+        },
+        "rdBrokerURL": {
+            "value": "https://rdbroker.wvd.microsoft.com"
+        },
+        "existingTenantGroupName": {
+            "value": "Default Tenant Group"
+        },
+        "existingTenantName": {
+            "value": "wvd-tenant"
+        },
+        "hostPoolName": {
+            "value": "Hostpool"
+        },
+        "serviceMetadataLocation": {
+            "value": "United-States"
+        },
+        "enablePersistentDesktop": {
+            "value": false
+        },
+        "defaultDesktopUsers": {
+            "value": ""
+        },
+        "tenantAdminUpnOrApplicationId": {
+            "value": "svcID"
+        },
+        "tenantAdminPassword": {
+            "value": "svcPW"
+        },
+        "isServicePrincipal": {
+            "value": true
+        },
+        "aadTenantId": {
+            "value": "aadTenantId"
+        },
+        "location": {
+            "value": "westeurope"
+        }
+    }
+}
