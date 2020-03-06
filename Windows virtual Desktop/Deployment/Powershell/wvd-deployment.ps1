@@ -79,7 +79,7 @@ New-AzureADUser
 #   deploy Azure AD Service
 New-AzResourceGroupDeployment `
     -ResourceGroupName $ResourceGroup `
-    -TemplateFile "C:\Users\MaximilianBayer\OneDrive - Wittl-IT\Dokumente\Azure\Windows Virtual Desktop\.json\AadServicetemplateAusAzure.json" `
+    -TemplateUri "https://raw.githubusercontent.com/Wittl-Informationstechnologie/Azure/master/Windows%20virtual%20Desktop/Deployment/.json/WvdTemplate.json" `
     -TemplateParameterFile "C:\Users\MaximilianBayer\OneDrive - Wittl-IT\Dokumente\Azure\Windows Virtual Desktop\.json\DeploymentParameters.json" `
 
 Start-Sleep -Seconds 3600
